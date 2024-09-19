@@ -1,11 +1,11 @@
 name: Entries
 pname: entries
 description: Coded Flows inputs and data entries
-version: 0.1.0
+version: 0.1.1
 icon: keyboard
 private: false
 base: true
-category: flows_management
+category: base_flow_management
 python:
   - '3.9'
   - '3.10'
