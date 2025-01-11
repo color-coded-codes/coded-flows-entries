@@ -1,5 +1,4 @@
-from coded_flows.types import DirectoryPath
-
+from coded_flows.types import Str
 
 
 coded_flows_metadata = {
@@ -7,10 +6,10 @@ coded_flows_metadata = {
     "description": "Select a folder from your device",
     "icon": "folder-filled",
     "type": "entry",
-    "entry_type": "folder"
-
+    "entry_type": "folder",
 }
 
-def folder_entry()-> DirectoryPath:
+
+def folder_entry() -> Str:
     folder_entry = ""
     return folder_entry

@@ -1,5 +1,4 @@
-from coded_flows.types import FilePath
-
+from coded_flows.types import Str
 
 
 coded_flows_metadata = {
@@ -7,10 +6,10 @@ coded_flows_metadata = {
     "description": "Select a file from your device",
     "icon": "file-filled",
     "type": "entry",
-    "entry_type": "file"
-
+    "entry_type": "file",
 }
 
-def file_entry()-> FilePath:
+
+def file_entry() -> Str:
     file_entry = ""
     return file_entry
